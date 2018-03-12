@@ -2,32 +2,27 @@ en:
   time:
     formats:
       default: "%B %d %Y %H:%M"
-  bands:
-    rolling_stones: "The Rolling Stones"
-    beatles: "The Beatles"
-    acdc: "AC/DC"
   vue:
     front:
       title: "Front end"
       nav:
         homepage: "Home"
-        musicians: "Musicians"
+        supplements: "Supplements"
       home:
         title: "This is the Home page"
         content: "Lorem ipsum dolor sit amet, you know the song..."
         admin_link: "» Wanna go to the admin?"
-      musicians:
+      supplements:
         id: "Id"
         name: "Name"
-        band: "Band"
-        details: "Details about this musician:"
+        amount: "Amount"
     admin:
       title: "Admin"
       save: "Save"
       cancel: "Cancel"
       filter: "Filter"
       nav:
-        musicians: "Musicians"
+        supplements: "Supplements"
         dashboard: "Dashboard"
         users: "Users"
         chat: "Chat"
@@ -38,18 +33,18 @@ en:
           placeholder: "Type a message..."
       dashboard:
         title: "Dashboard"
-        musician: "Musician | Musicians"
+        supplement: "Supplement | Supplements"
         user: "User | Users"
       users:
         title: "Users"
         create: "+ Add a new user"
         editing_user: "Editing user"
         creating_user: "Creating a new user"
-      musicians:
-        title: "Musicians"
-        create: "+ Add a new musician"
-        editing_musician: "Editing a musician"
-        creating_musician: "Creating a new musician"
+      supplements:
+        title: "Supplements"
+        create: "+ Add a new Supplement"
+        editing_supplement: "Editing a supplement"
+        creating_supplement: "Creating a new supplement"
       confirmation: "Are you sure?"
       activerecord:
         models:
@@ -57,6 +52,6 @@ en:
             email: "Email"
             password: "Password"
             password_confirmation: "Confirm password"
-          musician:
+          supplement:
             name: "Name"
-            band: "Band"
+            amount: "Amount"

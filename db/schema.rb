@@ -12,14 +12,14 @@
 
 ActiveRecord::Schema.define(version: 20171218221703) do
 
-  create_table "musicians", force: :cascade do |t|
+  create_table "supplements", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "name"
-    t.integer "band"
+    t.integer "amount"
   end
 
-  create_table "users", force: :cascade do |t|
+  create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "email"

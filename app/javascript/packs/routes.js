@@ -3,16 +3,16 @@ import VueRouter from 'vue-router';
 Vue.use(VueRouter);
 
 import HomeIndex from './components/home/index.vue';
-import MusicianIndex from './components/musicians/index.vue';
-import MusicianShow from './components/musicians/show.vue';
+import SupplementIndex from './components/supplements/index.vue';
+import SupplementShow from './components/supplements/show.vue';
 
 const router = new VueRouter({
   mode: 'history',
   base: `${I18n.prefix}`,
   routes: [
     { path: '/', component: HomeIndex, name: 'root_path' },
-    { path: '/musicians', component: MusicianIndex, name: 'musicians_path' },
-    { path: '/musicians/:id', component: MusicianShow, name: 'musician_path' }
+    { path: '/supplements', component: SupplementIndex, name: 'supplements_path' },
+    { path: '/supplements/:id', component: SupplementShow, name: 'supplement_path' }
   ]
 });
 

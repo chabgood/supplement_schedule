@@ -5,10 +5,10 @@ class RootSetup < ActiveRecord::Migration[5.1]
       t.string :email
     end
 
-    create_table :musicians do |t|
+    create_table :supplements do |t|
       t.timestamps
       t.string :name
-      t.integer :band
+      t.integer :amount
     end
 
     change_table :users do |t|

@@ -2,32 +2,27 @@ fr:
   time:
     formats:
       default: "%B %d %Y %H:%M"
-  bands:
-    rolling_stones: "The Rolling Stones"
-    beatles: "The Beatles"
-    acdc: "AC/DC"
   vue:
     front:
       title: "Front end"
       nav:
         homepage: "Accueil"
-        musicians: "Musiciens"
+        supplements: "Musiciens"
       home:
         title: "Ceci est la page d'accueil"
         content: "Lorem ipsum dolor sit amet, vous connaissez la chanson..."
         admin_link: "» Voulez-vous essayer la section admin ?"
-      musicians:
+      supplements:
         id: "Id"
         name: "Nom"
-        band: "Groupe"
-        details: "Details à propos de ce musicien :"
+        amount: "Montant"
     admin:
       title: "Admin"
       save: "Enregistrer"
       cancel: "Annuler"
       filter: "Filtrer"
       nav:
-        musicians: "Musiciens"
+        supplements: "Suppléments"
         dashboard: "Dashboard"
         users: "Utilisateurs"
         chat: "Chat"
@@ -38,18 +33,18 @@ fr:
           placeholder: "Tapez votre message..."
       dashboard:
         title: "Dashboard"
-        musician: "Musicien | Musiciens"
+        supplement: "Supplément | Suppléments"
         user: "Utilisateur | Utilisateurs"
       users:
         title: "Utilisateurs"
         create: "+ Ajouter un utilisateur"
         editing_user: "Modifier un utilisateur"
         creating_user: "Créer un utilisateur"
-      musicians:
-        title: "Musiciens"
-        create: "+ Ajouter un musicien"
-        editing_musician: "Modifier un musicien"
-        creating_musician: "Créer un musician"
+      supplements:
+        title: "Supplément"
+        create: "+ Ajouter un supplément"
+        editing_supplement: "Modifier un supplément"
+        creating_supplement: "Créer un supplément"
       confirmation: "Etes-vous certain ?"
       activerecord:
         models:
@@ -57,6 +52,6 @@ fr:
             email: "Email"
             password: "Mot de passe"
             password_confirmation: "Confirmer le mot de passe"
-          musician:
+          supplement:
             name: "Nom"
-            band: "Groupe"
+            amount: 60

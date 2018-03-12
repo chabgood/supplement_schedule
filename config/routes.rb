@@ -6,7 +6,7 @@ Rails.application.routes.draw do
     devise_for :users, only: [:sessions]
 
     namespace :api, :defaults => { :format => 'json' } do
-      resources :musicians, only: [:index, :show]
+      resources :supplements, only: [:index, :show]
 
       namespace :admin do
         as :user do
@@ -14,7 +14,7 @@ Rails.application.routes.draw do
         end
         resources :dashboard, only: :index
         resources :users, except: :show
-        resources :musicians, except: :show
+        resources :supplements, except: :show
       end
     end
 

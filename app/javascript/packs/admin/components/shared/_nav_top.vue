@@ -14,7 +14,7 @@
         <ul class="nav navbar-nav navbar-right">
           <ul class="nav navbar-nav">
             <li><router-link :to="'/'">{{ $t('nav.dashboard') }}</router-link></li>
-            <li><router-link :to="'/musicians'">{{ $t('nav.musicians') }}</router-link></li>
+            <li><router-link :to="'/supplements'">{{ $t('nav.supplements') }}</router-link></li>
             <li><router-link :to="'/users'">{{ $t('nav.users') }}</router-link></li>
             <li><a href='#' @click.prevent="startChat">{{ $t('nav.chat') }}</a></li>
             <li><a href="#" @click.prevent="logout">{{ $t('nav.logout') }}</a></li>

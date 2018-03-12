@@ -2,11 +2,11 @@ import Vue from 'vue/dist/vue.esm';
 import Vuex from 'vuex';
 Vue.use(Vuex);
 
-import MusicianStore from './stores/musician_store.js';
+import SupplementStore from './stores/supplement_store.js';
 
 const store = new Vuex.Store({
   modules: {
-    MusicianStore
+    SupplementStore
   }
 });
 

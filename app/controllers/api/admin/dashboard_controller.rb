@@ -3,7 +3,7 @@ class Api::Admin::DashboardController < Api::Admin::AdminController
   def index
     metrics = {
       metrics: {
-        musicians: Musician.count,
+        supplements: Supplement.count,
         users: User.count
       }
     }
