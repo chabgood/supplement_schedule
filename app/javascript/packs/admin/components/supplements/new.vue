@@ -6,7 +6,7 @@
         <div class='col-xs-12'>
           <ul class='breadcrumb pull-left'>
             <li><router-link :to="{ name: 'root_path' }">{{ $t('dashboard.title') }}</router-link>
-            <li><router-link :to="{ name: 'supplements_path' }">{{ $t('supplements.title')}}</router-link>
+            <li><router-link :to="{ name: 'supplements_path' }">{{ $t('supplement.title')}}</router-link>
             <li>{{ $t('supplements.creating_supplement')}}</li>
           </ul>
         </div>

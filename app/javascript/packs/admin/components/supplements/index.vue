@@ -20,7 +20,7 @@
               <tr>
                 <th>ID</th>
                 <th>Name</th>
-                <th>Band</th>
+                <th>Amount</th>
                 <th></th>
               </tr>
             </thead>
